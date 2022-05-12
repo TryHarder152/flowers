@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Flowers</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__menu-btn">
+          <img src="/images/hamburger.svg" alt="menu btn">
+        </div>
+        <a href="#" class="header__logotype">
+          <img src="/images/logotype.png" alt="Logotype">
+        </a>
+        <nav class="header__menu">
+          <div class="header__menu-logotype">
+            <img src="/images/logotype-alt.png" alt="logotype">
+          </div>
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item active">
+              <a href="#">Букеты</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#">Отзывы</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#">Доставка и оплата</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="header__menu-btn-close"></div>
+        </nav>
+        <div class="header__number">
+          <a class="header__number-icon" href="tel:+79602102233"></a>
+          <a class="header__number-tel" href="tel:+79602102233">+7 (960) 210-22-33</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <div class="main__wrapper">
+        <div class="main__info">
+          <img class="main__info-bg" src="/images/background-main.png" alt="background-main">
+          <h1 class="main__info-title">Цветы для самых любимых</h1>
+          <p class="main__info-text">Каждый день мы создаем новую крмпозицию из свежих, сезонных цветов</p>
+          <div class="main__info-btn">Заказать сейчас</div>
+        </div>
+        <div class="main__image">
+          <img src="/images/main-photo.png" alt="main photo">
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="delivery">
+    <div class="container">
+      <div class="delivery__title">5 шагов к авторскому букету</div>
+      <div class="delivery__items">
+        <div class="delivery__item">
+          <div class="delivery__item-image">
+            <img src="/images/step1.svg" alt="delivery step 1">
+          </div>
+          <h3 class="delivery__item-title">Заказ</h3>
+          <p class="delivery__item-text">Выберите букет и оформите заказ</p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__item-image reverse">
+            <img src="/images/step2.svg" alt="delivery step 2">
+          </div>
+          <h3 class="delivery__item-title">Детали</h3>
+          <p class="delivery__item-text">Мы вам перезвоним в течение 10 минут и уточним детали</p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__item-image">
+            <img src="/images/step3.svg" alt="delivery step 3">
+          </div>
+          <h3 class="delivery__item-title">Оплата</h3>
+          <p class="delivery__item-text">Оплатите онлайн или при получении</p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__item-image reverse double">
+            <img src="/images/step4.svg" alt="delivery step 4">
+          </div>
+          <h3 class="delivery__item-title">Сборка и упаковка</h3>
+          <p class="delivery__item-text">Собререм букет с учетом ваших пожеланий и упакуем для доставки</p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__item-image none">
+            <img src="/images/step5.svg" alt="delivery step 5">
+          </div>
+          <h3 class="delivery__item-title">Доставка </h3>
+          <p class="delivery__item-text">Курьер позвонит за час и доставит букет во время</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-callback">
+    <form class="modal-callback__form">
+      <div class="modal-callback__close-btn">
+        <img src="/images/btn-close-alt.svg" alt="close btn">
+      </div>
+      <div class="modal-callback__title">Обратный звонок</div>
+      <label class="modal-callback__name" for="modalName">*Имя</label>
+      <input class="modal-callback__name-input" id="modalName" type="name" name="name" placeholder="Николай">
+      <label class="modal-callback__phone" for="modalPhone">*Телефон</label>
+      <input class="modal-callback__phone-input" id="modalName" type="phone" name="phone">
+      <p class="modal-callback__approval">*Нажимая кнопку “Оставить заявку” я даю согласие на обработку данных </p>
+      <input class="modal-callback__submit-btn" type="submit" value="Отправить заявку">
+    </form>
+  </div>
+
+  <script src="/js/script.js" type="module"></script>
+</body>
+</html>
