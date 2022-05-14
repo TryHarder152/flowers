@@ -334,7 +334,7 @@ body {
   position: absolute;
   left: 73px;
   top: 0;
-  background-image: url(/images/steps-line-up.svg);
+  background-image: url(../images/steps-line-up.svg);
   background-size: auto;
   background-repeat: no-repeat;
   height: 33px;
@@ -344,7 +344,7 @@ body {
   display: none;
 }
 .delivery__item-image.reverse:after {
-  background-image: url(/images/steps-line-down.svg);
+  background-image: url(../images/steps-line-down.svg);
   top: 50px;
 }
 .delivery__item-title {
@@ -387,7 +387,7 @@ body {
   padding: 64px 112px;
   width: 750px;
   margin: 0 auto;
-  background-image: url(/images/background-main.png);
+  background-image: url(../images/background-main.png);
   background-position: 130px -15px;
   background-repeat: no-repeat;
 }
